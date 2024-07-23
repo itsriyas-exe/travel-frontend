@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WanderVista - Discover Your Next Adventure with WanderVista</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+     
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/style.css">
+    <link rel="icon" type="image" href="/assets/favicon.ico">
+</head>
+<body>
+    <div class="header">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <a class="navbar-brand ms-md-5" href="#"><img src="/assets/logo text.png" alt="" height="70px"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-lg-flex align-items-lg-center">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Shop travel
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#web-offers"><i class="fa-solid fa-building me-3"></i>Stays</a></li>
+                          <li><a class="dropdown-item" href="#web-flights"><i class="fa-solid fa-plane me-3"></i>Flights</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#web-packages"><i class="fa-solid fa-briefcase me-3"></i>Vacation packages</a></li>
+                          <li><a class="dropdown-item" href="#web-todo"><i class="fa-solid fa-ticket me-3"></i>Things to do</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="https://play.google.com/store/apps/details?id=com.wandervista"><button class="p-2 rounded-5 text-light border-0" style="background-color: green;"><i class="fa-solid fa-download ms-2 me-3" style="color: #f0f0f0;"></i>Get the appㅤ</button></a>
+                      </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#web-footer">Support</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#web-video">Trips</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/error.html">Sign in</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </div>
+    <!-- Section - Top 1 -->
+    <div class="container-fluid">
+        <div class="top" id="web-top">
+          <div class="slogan d-flex align-items-start">
+            <h1>Discover Your Next Adventure<br><span style="color: rgb(34, 102, 80);"> with WanderVista</span></h1>
+          </div><br>
+          <div class="items p-5" style="width: fit-content;">
+            <input placeholder="Leaving from" class="input-style me-md-3" type="search">
+            <input placeholder="Going to" class="input-style me-md-3" type="search">
+            <input class="input-style me-md-3" type="date" id="dob">
+            <select class="input-style me-md-3" id="Travelers">
+            <option value="Adults">Adult</option>
+            <option value="Children">Children</option>
+            <option value="Infants">Infants</option>
+           </select>
+           <a href="/error.html">
+             <button class="button ms-3">
+              <i class="fa-solid fa-magnifying-glass me-3" style="color: #ffffff;"></i>Search</button>  
+           </a>  
+          </div>
+        </div>
+        <!--  Section Top 2 -->
+        <div class="places" id="web-places">
+          <h3>Go on an award-winning adventure</h3>
+          <p class="text-secondary">2024’s Travelers’ Choice Awards Best of the Best Things To Do</p>
+          <div class="row">
+            <div class="col-md-3"><div class="card" style="width: 18rem;">
+              <a href="https://www.zionguru.com/hiking-the-narrows" target="_blank">
+                <img src="./assets/caption.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Top Experiences</h5>
+              </a>
+              </div>
+            </div></div>
+            <div class="col-md-3"><div class="card" style="width: 18rem;">
+              <a href="https://www.myswitzerland.com/en-in/destinations/attractions/" target="_blank">
+                <img src="/assets/caption (1).jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Top Attractions</h5>
+              </a>
+              </div>
+            </div></div>
+            <div class="col-md-3"><div class="card" style="width: 18rem;">
+             <a href="https://www.viator.com/Paris/d479-ttd?mcid=33953&tsem=true&supci=2062566562&supag=1227054978492002&supsc=kwd-76690938561974&supai=76691073435928&supdv=c&supnt=o&supkw=top%20attractions%20in%20paris&supti=kwd-76690938561974&suplp=163794&supli=20061&m=33953&supag=1227054978492002&supsc=kwd-76690938561974&supai=76691073435928&supdv=c&supnt=nt:o&suplp=163794&supli=20061&supti=kwd-76690938561974&tsem=true&supci=kwd-76690938561974&supkw=top%20attractions%20in%20paris&msclkid=af0620abe20e18892823463406c78181" target="_blank">
+                <img src="/assets/caption (2).jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Bucket List</h5>
+             </a>
+              </div>
+            </div>
+        </div>
+            <div class="col-md-3"><div class="card" style="width: 18rem;">
+              <a href="https://tajmahal.gov.in/" target="_blank">
+                <img src="/assets/caption (3).jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Cultural & Historic</h5>
+              </a>
+              </div>
+            </div></div>
+          </div>
+  
+          <!-- Section Top 3 -->
+         <div class="offers mt-5 d-flex ms-md-3 me-md-5 gap-5" id="web-offers">
+              <a href="https://www.booking.com/searchresults.en-gb.html?ss=Miami%2C+Florida%2C+United+States&efdco=1&label=msn-p2_BVGL*i2xtw1pjQKvB9A-80333185876042%3Atikwd-16659120246%3Aloc-90%3Aneo%3Amtp%3Alp163794%3Adec%3Aqshotels+vice+city&aid=393655&lang=en-gb&sb=1&src_elem=sb&src=index&dest_id=20023181&dest_type=city&ac_position=0&ac_click_type=b&ac_langcode=en&ac_suggestion_list_length=5&search_selected=true&search_pageview_id=6eaa7b27e81f024d&ac_meta=GhA2ZWFhN2IyN2U4MWYwMjRkIAAoATICZW46BW1pYW1pQABKAFAA&group_adults=2&no_rooms=1&group_children=0" target="_blank">
+                <div class="item1 p-5 text-center me-4">
+                  <i class="fa-solid fa-hotel fa-3x my-3"></i>
+                  <h4 class="ms-3">TRAVEL AS YOU ARE</h4>
+                  <p class="text-secondary">Find hotels using our new search filter</p>
+                </div>
+              </a>
+              <a href="https://www.makemytrip.com/flights/?cmp=SEM|D|DF|B|Generic|DF_Generic_Exact|Flight_Exact|ETA|Regular|&s_kwcid=AL!1631!3!!e!!o!!travel&ef_id=:G:s&msclkid=31b3f9b561721350bcfc9f2a88c30608" target="_blank">
+                <div class="item1 p-5 text-center me-4">
+                  <i class="fa-solid fa-handshake fa-3x my-3"></i>
+                  <h4 class="ms-3">BOOK MORE, GET MORE</h4>
+                  <p class="text-secondary">Book more and Earn points and travel perks</p>
+              </div>
+              </a>
+            <a href="https://www.cleartrip.com/flights?utm_source=bing_fl_search&utm_medium=cpa&utm_content=responsive_ad&utm_campaign=CT:Domestic_Bing_Desktab&msclkid=c1133783c9bf13dd4d4c511c2044d47c" target="_blank">
+                <div class="item1 p-5 text-center me-3">
+                  <i class="fa-solid fa-unlock fa-3x my-3"></i>
+                  <h4 class="ms-3">GET INSIDER PRICES</h4>
+                  <p class="text-secondary">Become a member and getnaccess to instant savings</p>
+             </div>
+            </a>
+         </div>
+         <!-- Section Top 4 -->
+           <div class="flights" id="web-flights">
+            <div class="flight">
+              <h1 class="text-center text-light my-md-3">Find your next flight deal</h1>
+              <input placeholder="Leaving from" class="input-styl me-3" type="search">
+              <input placeholder="To where?" class="input-styl me-3" type="search">
+              <input class="input-styl me-3" type="date" id="dob">
+              <select class="input-styl me-3" id="Travelers">
+              <option value="Adults">Adult</option>
+              <option value="Children">Children</option>
+              <option value="Infants">Infants</option>
+             </select>
+             <a href="https://www.makemytrip.com/flight/search?tripType=O&itinerary=COK-DXB-22/08/2024&paxType=A-1_C-0_I-0&cabinClass=E&sTime=1724327504942&forwardFlowRequired=true&action=FLTSRCH&intl=true&cmp=SEM%7CD%7CIF%7CB%7CRoute%7COBSH%7CKochi-Dubai%7CIN_United%20Arab%20Emirates%7CME/Gulf%7CRSA%7CRegular%7C&s_kwcid=AL!1631!3!!e!!o!!flights%20kochi%20to%20dubai&ef_id=:G:s&msclkid=dd75d11c8fee16df71a6b78316a52888&isSemFlow=true">
+               <button id="fbut">
+                <svg
+                  height="24"
+                  width="24"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M0 0h24v24H0z" fill="none"></path>
+                  <path
+                    d="M5 13c0-5.088 2.903-9.436 7-11.182C16.097 3.564 19 7.912 19 13c0 .823-.076 1.626-.22 2.403l1.94 1.832a.5.5 0 0 1 .095.603l-2.495 4.575a.5.5 0 0 1-.793.114l-2.234-2.234a1 1 0 0 0-.707-.293H9.414a1 1 0 0 0-.707.293l-2.234 2.234a.5.5 0 0 1-.793-.114l-2.495-4.575a.5.5 0 0 1 .095-.603l1.94-1.832C5.077 14.626 5 13.823 5 13zm1.476 6.696l.817-.817A3 3 0 0 1 9.414 18h5.172a3 3 0 0 1 2.121.879l.817.817.982-1.8-1.1-1.04a2 2 0 0 1-.593-1.82c.124-.664.187-1.345.187-2.036 0-3.87-1.995-7.3-5-8.96C8.995 5.7 7 9.13 7 13c0 .691.063 1.372.187 2.037a2 2 0 0 1-.593 1.82l-1.1 1.039.982 1.8zM12 13a2 2 0 1 1 0-4 2 2 0 0 1 0 4z"
+                    fill="currentColor"
+                  ></path>
+                </svg>
+                <span>Search</span>
+              </button> 
+             </a>           
+            </div>
+           </div>
+  <div class="video rounded-3" id="web-video">
+    <video autoplay muted loop id="myVideo">
+      <source src="/assets/Miami in 4K HDR Drone Video at Night.mp4" type="video/mp4">
+    </video>
+        </div>
+        <div class="txt text-center">
+          <h1 id="vid-h1">EXPLORE  DREAM  DISCOVER</h1><br>
+          <a href="#web-packages"><button id="btn-glow">EXPLORE NOW</button></a>
+        </div>
+
+        <!-- Packages -->
+        <div class="packages" id="web-packages">
+          <div class="row mt-5 ">
+            <div class="col-md-1"></div>
+            <div class="col-md-10">
+              <h1>Discover deals in every city</h1>
+              <div class="row w-100 mt-3">
+                <div class="col-md-8">
+                    <div class="projectGdiv1">
+                     <a href="">
+                        <img id="div1img" class="w-100">
+                        <div class="projectGdiv2"></a>
+                          <h3 class="text-center ms-md-4">New York</h3><br>
+                          <p class="text-warning text-center ms-md-3">24-Hour Excitement</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div style="position: relative;">
+                      <a href>
+                        <img id="div2img" class="w-100" height="200px">
+                        <div class="projectGdiv2">
+                      </a>
+                        <h3 class="div2h3 text-center ms-md-2">San Fransicso</h3><br>
+                        <p class="text-warning ms-md-3">Soak up the scenes</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              <div class="row w-100 mt-3">
+                <div class="col-md-6">
+                  <div class="projectGdiv5">
+                    <a href="">
+                      <img id="div1img" class="w-100">
+                      <div class="projectGdiv2">
+                    </a>
+                      <h3 class="text-center ms-md-4">Miami</h3><br>
+                      <p class="text-warning text-center ms-md-3">Its Beach time</p>
+                    </div>
+                  </div>
+                </div>
+                  <div class="col-md-6">
+                    <div class="div6" style="position: relative;">
+                      <a href="">
+                        <img class="w-100" height="200px">
+                        <div class="projectGdiv2">
+                      </a>
+                        <h3 class="text-center ms-md-4">San Diago</h3><br>
+                        <p class="text-warning text-center ms-md-3">Ride the waves</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Things to do-->
+                 <div class="todo mt-md-5 ms-md-3" id="web-todo">
+                  <h1>Things to do</h1>
+                  <div class="row">
+                    <div class="col-4">
+                      <div class="card2 mt-md-3">
+                        <img src="/assets/0c1991a1-d38c-4ae9-8ca1-e514b9622290.webp" alt="">
+                        <div class="card__content">
+                          <p class="card__title">Boat Tour in Miami</p>
+                          <p class="card__description">
+                            Get your celebrity fix on a relaxing cruise that takes you past the homes of silver screen stars and millionaires. Engaging guides provide running commentary about Miami and Biscayne Bay's mansion-studded shoreline as you snap photos of the city skyline.
+                          </p>
+                        </div>
+                      </div>
+                      
+                    </div>
+                    <div class="col-4">
+                      <div class="card2 mt-md-3" id="c2">
+                        <img src="/assets/2cc46971-d055-495b-8fe7-b45a6e385205.webp" alt="">
+                        <div class="card__content">
+                          <p class="card__title">Miami Sunset & City Lights Cocktail Cruise</p>
+                          <p class="card__description">
+                            Take time out from the daily grind and enjoy wine, beer, prosecco, and frozen cocktails on this two hour cruise along Miami’s coastline. Relax as the sun sets over Miami.
+                          </p>
+                        </div>
+                      </div>
+                      
+                    </div>
+                    <div class="col-4">
+                      <div class="card2 mt-md-3" id="c3">
+                        <img src="/assets/f305a464-10c6-4418-af6e-b9cd38e9d9ae.avif" alt="">
+                        <div class="card__content">
+                          <p class="card__title">Miami Jet Skis Adventure</p>
+                          <p class="card__description">
+                            The adventure begins leaving with our boat from the marinas located at 4 points between Miami Beach and Downtown Miami, from there we leave and we will tour the beautiful Biscayne Bay where you can see the houses of celebrities.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                 </div>
+
+                 <!-- Footer -->
+                 <footer class="footer" id="web-footer">
+                  <div class="container">
+                    <div>
+                      <h5>WanderVista</h5>
+                      <p>&copy; 2024 WanderVista. All rights reserved.</p>
+                    </div>
+                    <div class="social-icons">
+                      <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
+                      <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
+                      <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+                      <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                  </div>
+                </footer>
+</body>
+</html>
+
