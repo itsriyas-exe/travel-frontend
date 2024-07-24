@@ -124,8 +124,8 @@
     }
     .items button{
       position: relative;
-      top: 60px;
-      right: 130px;
+      top: 5px;
+  
     }
     .flight h1{
        font-size: 18px;
@@ -561,7 +561,7 @@
   margin: 0;
   color: #6c757d;
 }
-@media (min-width: 768px) {
+@media (min-width: 600px) {
   .footer {
     text-align: left;
     padding: 2rem 1.5rem;
