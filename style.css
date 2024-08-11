@@ -559,8 +559,23 @@
     margin-top: -400px;
     margin-left: -227px;
   }
+  .location1{
+    position: relative;
+    bottom: 900px;
+  }
+  .location2{
+    position: relative;
+    bottom: 900px;
+  }
+  .todo2{
+    margin-top: 750px;
+  }
   .footer{
     margin-top: -150px;
+  }
+  #morea{
+    position: relative;
+    bottom: 180px;
   }
 }
 
@@ -599,4 +614,51 @@
   .footer .social-icons {
     text-align: right;
   }
+}
+/*  */
+/* From Uiverse.io by WhiteNervosa */ 
+#emore {
+  font-size: 18px;
+  color: #000000;
+  font-family: inherit;
+  font-weight: 800;
+  cursor: pointer;
+  position: relative;
+  border: none;
+  background: none;
+  text-transform: uppercase;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: color;
+}
+
+#emore:focus,
+#emore:hover {
+  color: #5d004d;
+}
+
+#emore:focus:after,
+#emore:hover:after {
+  width: 100%;
+  left: 0%;
+}
+
+#emore:after {
+  content: "";
+  pointer-events: none;
+  bottom: -2px;
+  left: 50%;
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background-color: #5d004d;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: width, left;
+}
+#morea{
+  margin-top: 30px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
 }
